@@ -1,0 +1,27 @@
+{
+  "name": "electron-template",
+  "version": "1.0.0",
+  "description": "Simple Electron.js template",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": ["electron", "template"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.example.electrontemplate",
+    "productName": "Electron Template",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*"
+    ]
+  }
+}
